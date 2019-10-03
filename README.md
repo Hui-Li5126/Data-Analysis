@@ -5,6 +5,7 @@ This project is to create a Postgres database for a startup company called Spark
 
 ## What is this project about?
   This project is to design a relational database to store song users information to allow analytics team to perforam joins tables and support their reporting needs.
+  
   **Database schema design:**
   The particular interest is to know what songs users are listening to, to reduce redundancy, ensure data accuracy and integrity, we'd like to divide data into the following tables:
     - song table with song_id as primary key and other info about song such as song name, artist name (we will use artist id here to ensure consistency since artist's name might not be unique enough to be a good identifier), the year the song was released and how long it is.
